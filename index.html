@@ -1,126 +1,150 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shudhanshu Nidhi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & Base */
+    * { margin:0; padding:0; box-sizing:border-box; font-family: 'Roboto', sans-serif;}
+    body { line-height:1.6; color:#333; background:#f8f9fa;}
+
+    .container { width:90%; max-width:1000px; margin:auto; padding:40px 0;}
+
+    /* Header */
+    header { background:#0d6efd; color:#fff; padding:20px 0;}
+    header h1 { text-align:center; font-size:2rem; }
+    header nav ul { display:flex; justify-content:center; list-style:none; margin-top:10px; }
+    header nav ul li { margin:0 15px; }
+    header nav ul li a { color:#fff; text-decoration:none; font-weight:500; transition:0.3s;}
+    header nav ul li a:hover { text-decoration:underline; }
+
+    /* Sections */
+    section { padding:60px 0; }
+    section h2 { text-align:center; font-size:2rem; margin-bottom:20px; color:#0d6efd; }
+    section p, section ul { text-align:center; max-width:800px; margin:10px auto; }
+
+    /* Achievements */
+    #achievements ul { list-style-type:square; }
+    #achievements ul li { margin:10px 0; }
+
+    /* Projects */
+    .project-card { background:#fff; padding:20px; margin:20px auto; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.1); max-width:800px; }
+
+    /* Buttons */
+    .btn { display:inline-block; background:#0d6efd; color:#fff; padding:10px 25px; border-radius:5px; text-decoration:none; margin-top:20px; transition:0.3s;}
+    .btn:hover { background:#0b5ed7; }
+
+    /* Footer */
+    footer { text-align:center; padding:20px 0; background:#212529; color:#fff; }
+
+    /* Responsive */
+    @media(max-width:768px) {
+      header nav ul { flex-direction:column; }
+      header nav ul li { margin:10px 0; }
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Shudhanshu Nidhi&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="css/style.css"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- HEADER / NAVBAR --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1&gt;Shudhanshu Nidhi&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#achievements"&gt;Achievements&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- HOME SECTION --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="home"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container home-content"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Hi, I'm Shudhanshu Nidhi 👋&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Student | Innovator | Youth Ambassador | Future Structural Engineer&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;From Kathmandu to international competitions, I explore mathematics, engineering, and real-world problem-solving.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#contact" class="btn"&gt;Get in Touch&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- ABOUT SECTION --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="about"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;About Me&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;I'm Shudhanshu Nidhi, born and raised in Kathmandu, Nepal. I completed my +2 Science from Triton International College and discovered my passion for mathematics, engineering, and innovation.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;My vision: To become a structural civil engineer and contribute to smarter, safer, and sustainable infrastructure in Nepal.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Values: Curiosity | Commitment | Integrity | Innovation | Impact&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- ACHIEVEMENTS SECTION --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="achievements"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Achievements&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;IYMC Ambassador 2024–25&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Top 25% – Final Round, International Youth Math Challenge&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Quantum Computing Fundamentals Quiz – 100/100 (IIT Roorkee)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Genius Array Math Competition – Certificate of Achievement&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Member – Olympiad Club (Grade 11)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Winner – U16 Cricket Championship &amp; Annual College Cricket Championship&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Vice President (Nepal) – Cross the Skylimits (CTSC Education Pvt. Ltd.)&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- PROJECTS SECTION --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="projects"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Projects&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="project-card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Sensor-Based Automatic Street Light&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;A smart system using motion and light sensors to automatically turn on street lights, reducing energy consumption and improving road safety.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="project-card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Municipality Smart App (NEP AI)&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Developing a digital transformation solution for municipalities — tax payment, certificates, grievances, and services in real-time.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="project-card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Research on Construction Delays in Nepal&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Analyzed why many tenders fail to complete on time, focusing on contractor selection, resource shortage, and accountability.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- BLOG SECTION --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="blog"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Blog&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Coming soon… I’ll share insights on tech, education, civil engineering, and personal growth.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- CONTACT SECTION --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="contact"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Contact Me&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;📍 Kathmandu, Nepal&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;📱 +977 9865161236&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;📧 shudhanshunidhi@gmail.com&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;🌐 &lt;a href="https://shudhanshu.com.np"&gt;www.shudhanshu.com.np&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- FOOTER --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;copy; 2025 Shudhanshu Nidhi. All rights reserved.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <div class="container">
+      <h1>Shudhanshu Nidhi</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section id="home">
+    <div class="container home-content">
+      <h2>Hi, I'm Shudhanshu Nidhi 👋</h2>
+      <p>Student | Innovator | Youth Ambassador | Future Structural Engineer</p>
+      <p>From Kathmandu to international competitions, I explore mathematics, engineering, and real-world problem-solving.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm Shudhanshu Nidhi, born and raised in Kathmandu, Nepal. I completed my +2 Science from Triton International College and discovered my passion for mathematics, engineering, and innovation.</p>
+      <p>My vision: To become a structural civil engineer and contribute to smarter, safer, and sustainable infrastructure in Nepal.</p>
+      <p>Values: Curiosity | Commitment | Integrity | Innovation | Impact</p>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section id="achievements">
+    <div class="container">
+      <h2>Achievements</h2>
+      <ul>
+        <li>IYMC Ambassador 2024–25</li>
+        <li>Top 25% – Final Round, International Youth Math Challenge</li>
+        <li>Quantum Computing Fundamentals Quiz – 100/100 (IIT Roorkee)</li>
+        <li>Genius Array Math Competition – Certificate of Achievement</li>
+        <li>Member – Olympiad Club (Grade 11)</li>
+        <li>Winner – U16 Cricket Championship & Annual College Cricket Championship</li>
+        <li>Vice President (Nepal) – Cross the Skylimits (CTSC Education Pvt. Ltd.)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Sensor-Based Automatic Street Light</h3>
+        <p>A smart system using motion and light sensors to automatically turn on street lights, reducing energy consumption and improving road safety.</p>
+      </div>
+      <div class="project-card">
+        <h3>Municipality Smart App (NEP AI)</h3>
+        <p>Developing a digital transformation solution for municipalities — tax payment, certificates, grievances, and services in real-time.</p>
+      </div>
+      <div class="project-card">
+        <h3>Research on Construction Delays in Nepal</h3>
+        <p>Analyzed why many tenders fail to complete on time, focusing on contractor selection, resource shortage, and accountability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section id="blog">
+    <div class="container">
+      <h2>Blog</h2>
+      <p>Coming soon… I’ll share insights on tech, education, civil engineering, and personal growth.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>📍 Kathmandu, Nepal</p>
+      <p>📱 +977 9865161236</p>
+      <p>📧 shudhanshunidhi@gmail.com</p>
+      <p>🌐 <a href="https://shudhanshu.com.np">www.shudhanshu.com.np</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Shudhanshu Nidhi. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
